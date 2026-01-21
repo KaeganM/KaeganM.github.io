@@ -1,6 +1,7 @@
 html{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(233, 227, 226);
+    
 }
 
 #format {
@@ -34,6 +35,10 @@ ul {
 
 li {
     margin-bottom: 0.5em;
+    font-size: 1.2em;
+    line-height: 1.6;
 }
+
+
 
 
