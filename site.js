@@ -1,4 +1,5 @@
 console.log("Java Script Connected");
+console.log("Test Message");
 
 const hours = new Date().getHours() // get the current hour
 
