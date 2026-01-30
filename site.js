@@ -1,6 +1,7 @@
 console.log("Java Script Connected");
 console.log("Test Message");
 
+
 const hours = new Date().getHours() // get the current hour
 
 const isMorning = hours >= 4 && hours < 12 // is it morning?
@@ -17,3 +18,14 @@ else if (isAfternoon) {
 else if (isEvening) {
     Time.textContent = 'Welcome and Good Evening,';
 }
+
+const userInput = document.querySelector('#Message')
+const button = document.querySelector('#Submit')
+button.addEventListener("click", () => {
+    if (userInput.value === "It's a secret to everybody.") {
+        localStorage.setItem(
+            "It's a secret to everybody.",
+            "You have discovered the secret message which is this message congrats"
+        );
+    }
+});
