@@ -19,13 +19,4 @@ else if (isEvening) {
     Time.textContent = 'Welcome and Good Evening,';
 }
 
-const userInput = document.querySelector('#Message')
-const button = document.querySelector('#Submit')
-button.addEventListener("click", () => {
-    if (userInput.value === "It's a secret to everybody.") {
-        localStorage.setItem(
-            "It's a secret to everybody.",
-            "You have discovered the secret message which is this message congrats"
-        );
-    }
-});
+ localStorage.setItem( "It's a secret to everybody.", "You have discovered the secret message which is this message congrats");
